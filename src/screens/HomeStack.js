@@ -50,7 +50,7 @@ HomeStack = () => {
     colors: {
       primary: "white",
       background: "white",
-      card: "#65509f",
+      card: "#3740FE",
       text: "white",
       border: "green",
     },

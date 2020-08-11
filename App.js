@@ -1,13 +1,11 @@
-/*import React from "react";
+import React from "react";
 import HomeStack from "./src/screens/HomeStack";
-
 
 export default function App() {
   return <HomeStack />;
 }
 
-*/
-
+/*
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -59,3 +57,4 @@ export default function App() {
     </NavigationContainer>
   );
 }
+*/
