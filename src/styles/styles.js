@@ -13,6 +13,10 @@ export const styles = StyleSheet.create({
   titleMedium: {
     fontSize: 16,
   },
+  titleVideos: {
+    fontSize: 24,
+    color: "red",
+  },
   androidButtonText: {
     color: "blue",
     fontSize: 20,
