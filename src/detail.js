@@ -69,25 +69,6 @@ Detail = () => {
           </TouchableOpacity>
         ),
       })}
-      {Platform.select({
-        ios: (
-          <Button
-            title="Pass Data Back"
-            onPress={() =>
-              navigation.navigate("Feed", { data: "We have new data!" })
-            }
-          />
-        ),
-        android: (
-          <TouchableOpacity
-            onPress={() =>
-              navigation.navigate("Feed", { data: "We have new data!" })
-            }
-          >
-            <Text style={styles.androidButtonText}>Pass Data Back</Text>
-          </TouchableOpacity>
-        ),
-      })}
     </View>
   );
 };

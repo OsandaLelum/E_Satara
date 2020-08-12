@@ -11,6 +11,8 @@ Feed = () => {
   let detailResult = route.params;
   return (
     <View style={styles.center}>
+      <Text>osanda lelum</Text>
+      <Text>17000955</Text>
       <Text style={styles.titleMedium}>
         {detailResult
           ? detailResult.data

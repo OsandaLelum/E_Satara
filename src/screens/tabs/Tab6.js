@@ -13,8 +13,8 @@ const Tab6 = () => (
       left={LeftContent}
     />
     <Card.Content>
-      <Title>Card title</Title>
-      <Paragraph>Card content</Paragraph>
+      <Title>Maths Grade 11</Title>
+      <Paragraph>This is a...</Paragraph>
     </Card.Content>
     <Card.Cover source={{ uri: "https://picsum.photos/700" }} />
     <Card.Actions>
