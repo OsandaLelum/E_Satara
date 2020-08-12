@@ -5,7 +5,7 @@ import Detail from "../detail";
 import Contact from "../screens/drawer/contact";
 import Favourites from "../screens/drawer/favourite";
 import Settings from "../screens/drawer/settings";
-import Payment from "../screens/drawer/payment";
+import Location from "../screens/drawer/location";
 
 import Tab1 from "../screens/tabs/Tab1";
 import Tab2 from "../screens/tabs/Tab2";
@@ -90,7 +90,7 @@ HomeStack = () => {
       <Drawer.Screen name="Questions" component={Feed} />
       <Drawer.Screen name="Favorites" component={Favourites} />
       <Drawer.Screen name="Contact_Us" component={Contact} />
-      <Drawer.Screen name="Payments" component={Payment} />
+      <Drawer.Screen name="Find_Us" component={Location} />
       <Drawer.Screen name="Settings" component={Settings} />
     </Drawer.Navigator>
   );
